@@ -54,14 +54,14 @@ const App = () => {
                                 onDrop={(e) => handleDrop(e, container.shapeType)}
                                 onDragOver={(e) => e.preventDefault()} 
                             > 
-                            {container.name} {container.shapeType} 
+                            
                             {shapes.filter(s => s.type === container.shapeType).map((s)=>
                                 // Render the shape item 
                                 <div 
                                     key={s.index} 
                                     draggable
                                     onDragStart={(e) => handleDragStart(e, s.index)}
-                                >{s.index}
+                                >
 
                                 </div>
                                 )
