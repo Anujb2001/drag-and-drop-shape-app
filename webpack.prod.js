@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CspHtmlWebpackPlugin = require('csp-html-webpack-plugin');
 
 module.exports = {
-    mode:"development",
+    mode:"production",
     entry: "./src/index.js",
     output: {
         filename: "bundle.js",
@@ -71,13 +71,6 @@ module.exports = {
             }
 
         ]
-    },
-    devServer: {
-        static: {
-            directory: path.join(__dirname, 'dist')
-        },
-        port: 3000,
-        open:true
     }
 
 }
