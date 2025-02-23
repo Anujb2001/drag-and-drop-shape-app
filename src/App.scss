@@ -1,0 +1,16 @@
+$primaryColor: blue;
+
+* {
+  box-sizing: border-box;
+}
+
+h1{
+    color: $primaryColor;
+}
+
+.container{
+    display: grid;
+    width: 100vb;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
