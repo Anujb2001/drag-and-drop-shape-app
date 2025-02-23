@@ -1,0 +1,19 @@
+{
+  "name": "drag-and-drop-shape-app",
+  "version": "1.0.0",
+  "description": "Creating the single page app, to allow the shape to drag and drop on different four quadrants and also changed the shape according to container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anujb2001/drag-and-drop-shape-app.git"
+  },
+  "author": "Anuj Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anujb2001/drag-and-drop-shape-app/issues"
+  },
+  "homepage": "https://github.com/Anujb2001/drag-and-drop-shape-app#readme"
+}
