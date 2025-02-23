@@ -17,8 +17,11 @@ h1{
 }
 
 .circle{
-  width: 100px;
-  height: 100px;
-  background-color: $shapeColor;
-  border-radius: 50%;
+  > div {
+    width: 100px;
+    height: 100px;
+    background-color: $shapeColor;
+    border-radius: 50%;
+  }
+  
 }
