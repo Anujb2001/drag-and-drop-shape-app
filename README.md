@@ -42,6 +42,5 @@ npm run build:prod
 ## Facing the issue to updated the HTML by adding the nonce hasp code by using webpack
 
 # Scope for Improvements
-## Code refactor - moving the code from App.js into septate sub components, 
 ## Add some animation transformation on drag and dropping the item.
 ## Store the state information on persistent state may be local storage.
